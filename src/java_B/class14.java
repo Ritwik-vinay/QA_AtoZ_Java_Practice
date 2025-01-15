@@ -1,20 +1,26 @@
 package java_B;
 
+import java.util.Scanner;
+
 public class class14 {
     public static void main(String[] args) {
-        System.out.printf("Table of  9:\n");
-        System.out.printf("9 x 1 = 9\n");
-        System.out.printf("9 x 2 = 18\n");
-        System.out.printf("9 x 3 = 27\n");
-        System.out.printf("9 x 4 = 36\n");
-        System.out.printf("9 x 5 = 45\n");
-        System.out.printf("9 x 6 = 54\n");
-        System.out.printf("9 x 7 = 63\n");
-        System.out.printf("9 x 8 = 72\n");
-        System.out.printf("9 x 9 = 81\n");
-        System.out.printf("9 x 10 = 90\n");
+        //reversing the word
 
+        String original = "Sharing is Caring";
+        String reverseString = new StringBuffer(original).reverse().toString();
+        System.out.println(reverseString);
+        StringBuilder revSentence = new StringBuilder();
 
+        //Reversing the sentence without reversing the word
+        String[] word = original.split(" ");
+        for (int i= word.length-1; i>=0;i--)
+        {
+            revSentence.append(word[i]);
+            if(i!=0){
+                revSentence.append(" ");
+            }
+        }
+        System.out.println(revSentence.toString());
 
     }
 }
