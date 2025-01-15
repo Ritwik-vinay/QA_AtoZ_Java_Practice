@@ -1,7 +1,5 @@
 package java_B;
 
-import java.util.Scanner;
-
 public class class14 {
     public static void main(String[] args) {
         //reversing the word
@@ -21,6 +19,5 @@ public class class14 {
             }
         }
         System.out.println(revSentence.toString());
-
     }
 }
