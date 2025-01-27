@@ -2,7 +2,7 @@ package Java_C_Task;
 
 import java.util.Scanner;
 
-public class java27_Palindrome {
+public class class27_Palindrome {
     public static void main(String[] args) {
         String revName="", oName ="";
         Scanner sc = new Scanner(System.in);

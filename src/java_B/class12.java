@@ -11,10 +11,10 @@ public class class12 {
         int a = scn.nextInt();
         System.out.println("Number 2");
         int b = scn.nextInt();
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
 
 
     }
