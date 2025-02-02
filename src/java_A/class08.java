@@ -14,5 +14,6 @@ public class class08 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
