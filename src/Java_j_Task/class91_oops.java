@@ -26,6 +26,7 @@ class vehicle {
         System.out.println("Default Method having speed " + speed);
     }
 
+    //method overloading
     void speed(int b) {
         System.out.println("Parameterized Method speed " + b);
     }
