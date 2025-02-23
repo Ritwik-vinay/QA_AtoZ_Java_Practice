@@ -1,11 +1,12 @@
-package Java_L_Task.lists;
+package Java_L_Task.sets;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
-public class class117_list_arrayListmerge {
+public class class119_sets {
     public static void main(String[] args) {
-
         List<String> fruits1 = new ArrayList();
         fruits1.add("orange");
         fruits1.add("apple");
@@ -24,9 +25,14 @@ public class class117_list_arrayListmerge {
         vegatables.add("tamato");
         vegatables.add("patato");
         vegatables.add("onion");
-        System.out.println(fruits2);
-        System.out.println(vegatables);
-        System.out.println(fruits1);
 
+
+        List<String> fruit_details = new ArrayList<String>();
+        fruit_details.addAll(fruits1);
+        fruit_details.addAll(fruits2);
+        System.out.println(fruit_details);
+        Set sets = new HashSet();
+        sets.addAll(fruit_details);
+        System.out.println(sets);
     }
 }
