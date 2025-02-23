@@ -3,7 +3,7 @@ package Java_L_Task.lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class class115_list_arraylist {
+public class class116_list_arraylist {
     public static void main(String[] args) {
         List<String> fruits1 = new ArrayList();
         fruits1.add("orange");
@@ -38,10 +38,7 @@ public class class115_list_arraylist {
         fruits_details.addAll(fruits1);
         fruits_details.addAll(fruits2);
         fruits_details.addAll(vegatables);
-        for (int i = 0; i < fruits_details.size(); i++) {
-
-            System.out.println(fruits_details.get(i));
-        }
+        System.out.println(fruits_details);
 
     }
 }
