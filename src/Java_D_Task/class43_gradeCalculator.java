@@ -2,7 +2,8 @@ package Java_D_Task;
 
 import java.util.Scanner;
 
-public class class43_gradeCalculator {
+public class
+class43_gradeCalculator {
     public static void main(String[] args) {
         //10) Calculate Grade Based on Marks. (Follow Below Steps to Write Program.)
         //1️⃣ Take user input for marks (Use Scanner class).
