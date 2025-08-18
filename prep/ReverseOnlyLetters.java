@@ -17,8 +17,6 @@ public class ReverseOnlyLetters {
                 rightPointer--;
             }
         }
-        for (char x : inputArray) {
-            System.out.println(x);
-        }
+        System.out.println(new String(inputArray));
     }
 }
