@@ -3,7 +3,7 @@ package java_B;
 import java.util.Scanner;
 
 public class class12 {
-    public static void main(String[] args) {
+    public static <main> void main(String[] args) {
 
         //Prepare a Calculator
         Scanner scn = new Scanner(System.in);
@@ -15,8 +15,16 @@ public class class12 {
         System.out.println(a - b);
         System.out.println(a * b);
         System.out.println(a / b);
+        System.out.println(main("Ritwik"));
+        //Java <7 then it can take multiple main method
+        // Java 8-21 main (Same identical main method should not be created)
 
 
     }
 
+    public static boolean main(String args1) {
+
+
+        return false;
+    }
 }
