@@ -11,7 +11,7 @@ public class class113_list {
         mylist.add("Berry");
         mylist.add("Apple");
         List mylist2 = new ArrayList();
-        mylist2.add("Santa");
+        mylist2.add("Santra");
         mylist2.add("seb");
         mylist2.add("kela");
         System.out.println(mylist.size());
