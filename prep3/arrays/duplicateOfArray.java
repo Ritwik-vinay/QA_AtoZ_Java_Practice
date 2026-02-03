@@ -1,17 +1,17 @@
 package arrays;
 
-import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class duplicateOfArray {
     static void main() {
-        int[] arr = {1, 2, 2, 3, 4, 3};
+        int[] arr = {2, 2, 3, 4, 3, 1};
         duplicateArrayCheckerWithBuiltInMethod(arr);
     }
 
 
     static void duplicateArrayCheckerWithBuiltInMethod(int[] arr) {
-        Set<Integer> setarr = new LinkedHashSet<>();
+        Set<Integer> setarr = new TreeSet<>();
         for (int a : arr) {
             setarr.add(a);
         }
