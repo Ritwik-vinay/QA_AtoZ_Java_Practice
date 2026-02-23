@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class removeDupeInArray {
     static void main() {
-        int[] arr = {1, 3, 3, 2, 5, 2, 4};
+        int[] arr = {5, 2, 9, 1, 6, 2, 5};
         System.out.println(removeDupeValue(arr));
     }
 
